@@ -35,11 +35,12 @@ public class CrossBrowserwithLog4j {
 			{
 				w = new FirefoxDriver();
 				log.info("Forefox browser has been launch");
-			}else if (browser.equals("edge")) 
-			{
-				w = new EdgeDriver();
-				log.info("Edge browser has been launch");
 			}
+				else if (browser.equals("edge")) 
+//			{
+//				w = new EdgeDriver();
+//				log.info("Edge browser has been launch");
+//			}
 			w.get("https://demo.frontaccounting.eu/index.php");
 			log.info("Browser has been redirected to Front Accounting site");
 		}
