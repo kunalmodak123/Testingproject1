@@ -34,8 +34,8 @@ public class CrossBrowserwithLog4j {
 				log.info("Chrome browser has been launch");
 				break;
 				
-			case "firefox":
-				w = new FirefoxDriver();	
+			case "edge":
+				w = new EdgeDriver();	
 				log.info("Firefox browser has been launch");
 				break;
 			}

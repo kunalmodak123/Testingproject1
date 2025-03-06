@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="FirefoxTest(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testNG.CrossBrowserTestingGrid_Standalone">
+      <class name="testNG.UmrahBookings">
         <methods>
+          <include name="teardown"/>
+          <include name="selectFirstHotel"/>
+          <include name="launchWebsite"/>
+          <include name="searchHotel"/>
+          <include name="beforeSuite"/>
+          <include name="fillPassengerDetails"/>
+          <include name="selectRoom"/>
+          <include name="afterSuite"/>
+          <include name="verifyPaymentOption"/>
           <include name="OpenBrowser"/>
           <include name="logout"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- testNG.CrossBrowserTestingGrid_Standalone -->
+      </class> <!-- testNG.UmrahBookings -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testNG.UmrahBookings">
+        <methods>
+          <include name="teardown"/>
+          <include name="selectFirstHotel"/>
+          <include name="launchWebsite"/>
+          <include name="searchHotel"/>
+          <include name="beforeSuite"/>
+          <include name="selectRoom"/>
+          <include name="afterSuite"/>
+          <include name="fillPassengerDetails"/>
+          <include name="verifyPaymentOption"/>
+          <include name="OpenBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNG.UmrahBookings -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

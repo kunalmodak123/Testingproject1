@@ -4,21 +4,16 @@
   <test name="ChromeTest">
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testNG.CrossBrowserTestingGrid_Standalone"/>
+      <class name="testNG.FlipkartGridStandalone_Practise"/>
     </classes>
   </test> <!-- Test -->
   
-  <test name="FirefoxTest">
-	  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="testNG.CrossBrowserTestingGrid_Standalone"/>
-    </classes>
-  </test> <!-- Test -->
+  
   
   <test name="EdgeTest">
 	  <parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="testNG.CrossBrowserTestingGrid_Standalone"/>
+      <class name="testNG.FlipkartGridStandalone_Practise"/>
     </classes>
   </test> <!-- Test -->
   

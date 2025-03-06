@@ -24,7 +24,7 @@ public class TestNG_Demo_04Aug {
 		w.get("https://www.google.com/");
 		w.findElement(By.id("APjFqb")).sendKeys("watch",Keys.ENTER);
 		TakesScreenshot tss = (TakesScreenshot) w;
-		FileHandler.copy(tss.getScreenshotAs(OutputType.FILE), new File("C:\\Users\\KUNAL\\eclipse-workspace\\AdvancedAutomation\\src\\test\\resources//src1.png"));
+		FileHandler.copy(tss.getScreenshotAs(OutputType.FILE), new File("C:\\Users\\KUNAL\\eclipse-workspace\\AdvancedAutomation\\src\\test\\resource\\img1.png"));
 	}
 	
 	//@Test (priority = 2)
@@ -35,7 +35,7 @@ public class TestNG_Demo_04Aug {
 		w.get("https://www.facebook.com/");
 		w.findElement(By.id("email")).sendKeys("kunal@mail.com");
 		TakesScreenshot tss = (TakesScreenshot) w;
-		FileHandler.copy(tss.getScreenshotAs(OutputType.FILE), new File("C:\\Users\\KUNAL\\eclipse-workspace\\AdvancedAutomation\\src\\test\\resources\\src2.png"));
+		FileHandler.copy(tss.getScreenshotAs(OutputType.FILE), new File("C:\\Users\\KUNAL\\eclipse-workspace\\AdvancedAutomation\\src\\test\\resources//src2.png"));
 	}
 	
 

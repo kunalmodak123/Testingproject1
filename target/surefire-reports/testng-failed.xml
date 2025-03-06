@@ -4,27 +4,13 @@
   <test thread-count="5" name="ChromeTest(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="logger4jDemo.CrossBrowserwithLog4j">
+      <class name="testNG.CrossBrowserTesting">
         <methods>
-          <include name="logger"/>
-          <include name="logout"/>
           <include name="OpenBrowser"/>
+          <include name="logout"/>
           <include name="login"/>
         </methods>
-      </class> <!-- logger4jDemo.CrossBrowserwithLog4j -->
+      </class> <!-- testNG.CrossBrowserTesting -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="FirefoxTest(failed)" verbose="0">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="logger4jDemo.CrossBrowserwithLog4j">
-        <methods>
-          <include name="logger"/>
-          <include name="logout"/>
-          <include name="OpenBrowser"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- logger4jDemo.CrossBrowserwithLog4j -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

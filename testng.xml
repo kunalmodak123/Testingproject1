@@ -4,14 +4,14 @@
   <test name="ChromeTest">
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="logger4jDemo.CrossBrowserwithLog4j"/>
+      <class name="testNG.UmrahBookings"/>
     </classes>
   </test> <!-- Test -->
   
-  <test name="FirefoxTest">
-	  <parameter name="browser" value="firefox"></parameter>
+  <test name="EdgeTest">
+	  <parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="logger4jDemo.CrossBrowserwithLog4j"/>
+      <class name="testNG.UmrahBookings"/>
     </classes>
   </test> <!-- Test -->
   

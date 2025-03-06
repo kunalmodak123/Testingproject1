@@ -1,18 +1,18 @@
 
 
-Feature: Hotel Search and Book
+Feature: Hotel Booking Flow
   
 
   
-  Scenario: Verify Hotel Search by making a booking
-  Given launch chromebrowser in new tab
-    And navigate to https://umrahbookings.com/
-    When enter kunal@puratech.in value in username field.
-    And enter 123 value in password field.
-    And user should be login to umrah bookings.
-    Then make a hotel search
-    And select hotel hotel to book
-    And click on book 
+  Scenario: Book a Hotel in Makkah for 2 nights
+  Given I launch chrome browser
+  And I navigate to umrahbookings website
+  When I login with username and password 
+  And I search for hotel in Makkah with checkin date as "30/03/2025" and check out date as "01/04/2025"
+  And I select the first hotel from the results
+  And I select the room
+  And I fill in passenger details
+  Then I see the payment option
     
 
   

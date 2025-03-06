@@ -12,7 +12,7 @@ public class FrontAccounting1 {
 	
 	WebDriver w;
 	@BeforeClass
-	public void openbrowser(String browser) 
+	public void openbrowser() 
 	{
 		w = new ChromeDriver();
 	}

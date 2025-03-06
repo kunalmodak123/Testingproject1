@@ -22,10 +22,11 @@ public class CrossBrowserTesting {
 		} else if (browser.equals("firefox")) 
 		{
 			w = new FirefoxDriver();			
-		}else if (browser.equals("edge")) 
-		{
-			w = new EdgeDriver();			
 		}
+//			else if (browser.equals("edge")) 
+//		{
+//			w = new EdgeDriver();			
+//		}
 		w.get("https://demo.frontaccounting.eu/index.php");		
 	}
 	

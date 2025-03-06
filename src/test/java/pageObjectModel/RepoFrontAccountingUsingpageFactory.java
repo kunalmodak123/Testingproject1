@@ -9,6 +9,7 @@ public class RepoFrontAccountingUsingpageFactory {
 WebDriver w;
 	public RepoFrontAccountingUsingpageFactory(WebDriver wd) {
 		w = wd;
+		//constructor to initialise elements using pagefactory
 	    PageFactory.initElements(w, this);
 	}
 	@FindBy(name = "user_name_entry_field") WebElement username;

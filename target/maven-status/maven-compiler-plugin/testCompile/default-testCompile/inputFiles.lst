@@ -1,3 +1,10 @@
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\DeleteMethod.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\GetMethod.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\PostMethod.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\PutMethod.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\StatusCodeVerification.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\TimeVerify_0412.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\APITesting\VerifyResponseBody.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\com\TakingValueFromDatabase\GoogleSearch.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\dataDrivenFramework\Flipkart_DataDriven_Task.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\dataDrivenFramework\FrontAccounting_Datadriven_Task.java
@@ -24,6 +31,7 @@ C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition\GoogleSearch.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition\LoginTest.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition\SauceDemo.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition\TutorialPoint_Practise.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\stepDefinition\UmrahBookings.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\AnnotationsForFrontAccounting_Task.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\AnnotationsForSauceDemo.java
@@ -35,6 +43,7 @@ C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\CrossBr
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\CrossBrowserTestingGrid_Standalone.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\CustomisedReport.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\Demo.java
+C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\FlipkartGridStandalone_Practise.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\FlipkartPriceValidation.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\FrontAccounting1.java
 C:\Users\KUNAL\eclipse-workspace\AdvancedAutomation\src\test\java\testNG\GoogleSearch1.java

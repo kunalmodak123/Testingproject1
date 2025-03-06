@@ -13,7 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class CrossBrowserTestingGrid_Standalone {
+public class CrossBrowserTestingGrid_Standalone
+{
 	
 	DesiredCapabilities dc;
 	RemoteWebDriver w;
