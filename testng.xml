@@ -9,7 +9,7 @@
   </test> <!-- Test -->
   
   <test name="EdgeTest">
-	  <parameter name="browser" value="edge"></parameter>
+	  <parameter name="browser" value="MicrosoftEdge"></parameter>
     <classes>
       <class name="testNG.UmrahBookings"/>
     </classes>
