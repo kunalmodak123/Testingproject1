@@ -29,6 +29,7 @@ public class UmrahBookingsHooks {
             TakesScreenshot ts = (TakesScreenshot) UmrahBookings.w;
             byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
+            
             System.out.println("Screenshot taken for failed step: " + scenario.getName());
         }
     }

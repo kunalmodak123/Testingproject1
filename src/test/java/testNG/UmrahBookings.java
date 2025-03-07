@@ -30,7 +30,7 @@ public class UmrahBookings{
 		if (browser.equals("chrome")) 
 		{
 			w = new ChromeDriver();			
-		} else if (browser.equals("edge")) 
+		} else if (browser.equals("MicrosoftEdge")) 
 		{
 			w = new EdgeDriver();			
 		}
